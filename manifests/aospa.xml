@@ -4,6 +4,10 @@
   <remote name="lineage"
           fetch="https://github.com/LineageOS"
           revision="lineage-16.0" />
+  
+  <remote name="why"
+          fetch="https://github.com/whypa"
+          revision="pie" />
 
   <!-- Manifest -->
   <project path="manifest" name="manifest" remote="aospa" groups="aospa" />
@@ -42,7 +46,7 @@
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="aospa" groups="aospa" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="why" />
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="android_frameworks_base" remote="aospa" groups="aospa" />
   <remove-project name="platform/frameworks/native" />
