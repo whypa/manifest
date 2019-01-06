@@ -75,7 +75,7 @@
   <project path="system/sepolicy" name="android_system_sepolicy" remote="aospa" groups="aospa" />
 
   <!-- Vendor -->
-  <project path="vendor/pa" name="android_vendor_pa" remote="aospa" groups="aospa" >
+  <project path="vendor/pa" name="android_vendor_pa" remote="why" >
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
   <remove-project name="platform/vendor/codeaurora/telephony" />
